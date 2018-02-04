@@ -74,6 +74,25 @@ body{
 	text-decoration: none;
 }
 
-@media screen {
-	
+section{
+	padding: 1rem 3rem;
+	color: #225470;
+	background: #fff;
+}
+
+section h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-btm{
+	background: #333;
+	color: #fff;
+}
+
+@media(max-width: 960px) {
+	.container{
+		padding-right: 1rem;
+		padding-bottom: 3rem;
+	}
 }
